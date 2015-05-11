@@ -13,6 +13,8 @@
 		8309FEEA1AFDE42700504AAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8309FEE91AFDE42700504AAB /* Images.xcassets */; };
 		8309FEED1AFDE42700504AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309FEEB1AFDE42700504AAB /* Main.storyboard */; };
 		8309FEF91AFDE42800504AAB /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309FEF81AFDE42800504AAB /* TrackMixTests.m */; };
+		8309FF041AFE848200504AAB /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309FF031AFE848200504AAB /* Track.m */; };
+		8309FF1E1AFFCE5100504AAB /* ISSoundAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309FF1D1AFFCE5100504AAB /* ISSoundAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		8309FEF21AFDE42800504AAB /* TrackMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8309FEF71AFDE42800504AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8309FEF81AFDE42800504AAB /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		8309FF021AFE848200504AAB /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		8309FF031AFE848200504AAB /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		8309FF1C1AFFCE5100504AAB /* ISSoundAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSoundAdditions.h; sourceTree = "<group>"; };
+		8309FF1D1AFFCE5100504AAB /* ISSoundAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSoundAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				8309FEE91AFDE42700504AAB /* Images.xcassets */,
 				8309FEEB1AFDE42700504AAB /* Main.storyboard */,
 				8309FEDF1AFDE42700504AAB /* Supporting Files */,
+				8309FF021AFE848200504AAB /* Track.h */,
+				8309FF031AFE848200504AAB /* Track.m */,
+				8309FF1C1AFFCE5100504AAB /* ISSoundAdditions.h */,
+				8309FF1D1AFFCE5100504AAB /* ISSoundAdditions.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -217,7 +227,9 @@
 			files = (
 				8309FEE81AFDE42700504AAB /* ViewController.m in Sources */,
 				8309FEE51AFDE42700504AAB /* main.m in Sources */,
+				8309FF1E1AFFCE5100504AAB /* ISSoundAdditions.m in Sources */,
 				8309FEE31AFDE42700504AAB /* AppDelegate.m in Sources */,
+				8309FF041AFE848200504AAB /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
